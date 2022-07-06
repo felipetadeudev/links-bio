@@ -18,11 +18,12 @@ body a {
 }
 
 main {
+    overflow: auto;
     background-color: #222;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 2rem;
 }
@@ -34,6 +35,7 @@ header {
     align-items: center;
     text-align: center;
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 header h1 {
